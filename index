@@ -40,7 +40,7 @@ app.get('/',(req,res)=>{
 	const filteredImages = pinarray[0].filter(imagee => imagee.length <= maxCharLength);
 	if(input==undefined){
 		res.send({
-			author:"https://aditya-info.me",
+			author:"https://t.me/Fazal000001",
 			default_img:filteredImages,
 			images:"https://te.legra.ph/file/4c6785bad56a2b137ddd3.png",
 			error:"lmao bruhh! no query?"
@@ -48,7 +48,7 @@ app.get('/',(req,res)=>{
 	}else{
 			res.send(
 		{   
-			author:"https://aditya-info.me",
+			author:"https://t.me/Fazal000001",
 			images:filteredImages,
 			count:filteredImages.length
 		}
